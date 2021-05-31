@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_calc"
+            android:title="Calculator" />
+
+        <item
+            android:id="@+id/webViewFragment"
+            android:title="WEB" />
+        <item
+            android:id="@+id/sensors_fragment"
+            android:title="Sensors" />
+        <item
+            android:id="@+id/cameraFragment4"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/recordFragment"
+            android:title="Record" />
+
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="Settings" />
+
+    </group>
+</menu>

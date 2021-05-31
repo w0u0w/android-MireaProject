@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.velikanov.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.velikanov.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.velikanov.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="ru.mirea.velikanov.mireaproject.CalculateFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="ru.mirea.velikanov.mireaproject.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/sensors_fragment"
+        android:name="ru.mirea.velikanov.mireaproject.Sensors_fragment"
+        android:label="fragment_sensors_fragment"
+        tools:layout="@layout/fragment_sensors_fragment" />
+    <fragment
+        android:id="@+id/cameraFragment4"
+        android:name="ru.mirea.velikanov.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="ru.mirea.velikanov.mireaproject.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.velikanov.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
